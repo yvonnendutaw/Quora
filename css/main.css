@@ -4,14 +4,42 @@ body{
     background-image: url(quora.png);
 }
 .header{
+    display: block;
 margin-top: 120px;
-width:
-    margin-left
+width:60%;
+      margin-left: 20%;
+      margin-right: 20%;
+}
+section{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: block;
+    background-color: aqua;
+
 }
 h1{
-    color: red;
+    color: #910505;
     font-weight: bolder;
 }
 span:hover{
     text-decoration: underline;
+}
+
+}
+.main{
+    display: block;
+    background-color: blueviolet;
+    width: 60%;
+
+}
+#form{
+     display: block;
+    background-color: red;
+}
+.nav{
+
+}
+.footer{
+
 }
