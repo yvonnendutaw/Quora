@@ -3,18 +3,20 @@ body{
 }
 .header{
     display: block;
-    margin-top: 120px;
-    width:60%;
-    margin-left: 20%;
+    margin-top: 200px;
+    width:45%
+    margin-left: 20%
     margin-right: 20%;
 }
 .header h1{
     color: #910505;
     font-weight: bolder;
     font-size: 50px;
+    text-align: center;
 }
 .header h3{
     font-size: 20px;
+    text-align: center;
 }
 span:hover{
     text-decoration: underline;
@@ -30,10 +32,13 @@ span:hover{
     border-radius: 5px;
 
 }
+.button{
+
+}
 #google{
     background-color: darkred;
     color: white;
-    height: 10px;
+    height: 30px;
     padding: 15px;
     width: 50%;
 }
@@ -41,8 +46,14 @@ span:hover{
     position: relative;
     background-color: midnightblue;
     color: white;
-    height: 10px;
+    height:20px;
     padding: 15px;
+    width: 50%;
+    margin-top: 20px;
+}
+
+#email{
+    margin-top: 20px;
 }
 #form{
      display: block;
@@ -53,5 +64,5 @@ span:hover{
 text-align: center;
 }
 .footer{
-
+text-align: center;
 }
