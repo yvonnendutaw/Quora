@@ -5,18 +5,10 @@ body{
 }
 .header{
     display: block;
-margin-top: 120px;
-width:60%;
+    margin-top: 120px;
+    width:60%;
       margin-left: 20%;
       margin-right: 20%;
-}
-section{
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
-    display: block;
-    background-color: aqua;
-
 }
 h1{
     color: #910505;
@@ -25,20 +17,39 @@ h1{
 span:hover{
     text-decoration: underline;
 }
+table{
+    display: block;
+    width: 45%;
+    height:200px;
+    float: center;
+    margin-right: 15%;
+    margin-left: 15%;
+    background-color: aqua;
+    border: solid 10px;
 
 }
-.main{
-    display: block;
-    background-color: blueviolet;
-    width: 60%;
-
+#google{
+    position: relative;
+    top: 30px;
+    background-color: darkred;
+    color: white;
+    height: 10px;
+    padding: 15px;
+}
+#facebook{
+    position: relative;
+    background-color: midnightblue;
+    color: white;
+    height: 10px;
+    padding: 15px;
 }
 #form{
      display: block;
     background-color: red;
+    width: 60%;
 }
 .nav{
-
+text-align: center;
 }
 .footer{
 
