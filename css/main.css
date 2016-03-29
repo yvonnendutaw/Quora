@@ -10,3 +10,6 @@ h1{
     color: red;
     font-weight: bolder;
 }
+span:hover{
+    text-decoration: underline;
+}
