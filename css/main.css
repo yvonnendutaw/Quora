@@ -8,29 +8,34 @@ body{
     margin-left: 20%;
     margin-right: 20%;
 }
-h1{
+.header h1{
     color: #910505;
     font-weight: bolder;
+    font-size: 50px;
+}
+.header h3{
+    font-size: 20px;
 }
 span:hover{
     text-decoration: underline;
 }
-table{
+#table{
     display: block;
     width: 45%;
     height:200px;
+    margin-left: 30%;
     float: center;
     background-color: aqua;
-    border: solid 10px;
+    border: solid 2px;
+    border-radius: 5px;
 
 }
 #google{
-    position: relative;
-    top: 30px;
     background-color: darkred;
     color: white;
     height: 10px;
     padding: 15px;
+    width: 50%;
 }
 #facebook{
     position: relative;
