@@ -1,11 +1,13 @@
-body {
+body,
+ul {
     background-image: url(quora.png);
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    list-style: none;
 }
 .header {
     display: block;
-    margin-top: 200px;
-    width: 45% margin-left: 20% margin-right: 20%;
+    margin-top: 120px;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-bottom: 40px;
 }
 .header h1 {
@@ -13,7 +15,7 @@ body {
     font-weight: bolder;
     font-size: 50px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .header h3 {
     font-size: 20px;
@@ -22,54 +24,47 @@ body {
 span:hover {
     text-decoration: underline;
 }
-button {
+#border button {
     background-color: darkblue;
-    width: 50px;
-    padding: 10px;
-    height: 2px;
+    padding: px;
+    border-radius: 5px;
+    float: right;
+    font-size: 12px;
+    color: white;
 }
-.border {
-    display: block;
-    border: solid 3px;
-    text-align: center;
-    height: 700px;
+#border {
+    width: 600px;
+    margin: auto;
+    padding: 40px;
 }
 #google {
     background-color: darkred;
     color: white;
     padding: 10px;
-    width: 20%;
     text-align: center;
-    margin-left: 25%;
 }
 #facebook {
     position: relative;
     background-color: midnightblue;
     padding: 10px;
-    width: 20%;
     margin-top: 20px;
     text-align: center;
     color: white;
-    margin-left: 25%;
 }
-#email {
-    margin-top: 20px;
-    margin-left: 25%;
-    font-size: 13px;
+#links {
+    float: left;
+    width: 300px;
 }
-#form {
-    display: block;
-    background-color: red;
-    width: 60%;
-    border: solid 10px;
-}
-#login {
+.login {
     margin-top: 0;
     float: right;
+    width: 300px;
 }
-.nav {
+#nav {
+    margin-bottom: 200px;
     text-align: center;
 }
-.footer {
+#nav ul li {
+    display: inline-block;
     text-align: center;
 }
