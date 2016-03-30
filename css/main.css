@@ -29,8 +29,10 @@ button {
     height: 2px;
 }
 .border {
-    display: inline-block;
-    border: solid;
+    display: block;
+    border: solid 3px;
+    text-align: center;
+    height: 700px;
 }
 #google {
     background-color: darkred;
@@ -53,12 +55,17 @@ button {
 #email {
     margin-top: 20px;
     margin-left: 25%;
+    font-size: 13px;
 }
 #form {
     display: block;
     background-color: red;
     width: 60%;
     border: solid 10px;
+}
+#login {
+    margin-top: 0;
+    float: right;
 }
 .nav {
     text-align: center;
