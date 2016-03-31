@@ -15,7 +15,6 @@ ul {
     font-weight: bolder;
     font-size: 50px;
     text-align: center;
-    margin-bottom: 10px;
 }
 .header h3 {
     font-size: 20px;
@@ -26,7 +25,7 @@ span:hover {
 }
 #border button {
     background-color: darkblue;
-    padding: px;
+    padding: 10px;
     border-radius: 5px;
     float: right;
     font-size: 12px;
@@ -43,18 +42,23 @@ span:hover {
     height: 200px;
 }
 #google {
+    display: block;
     background-color: darkred;
     color: white;
     padding: 10px;
     text-align: center;
 }
 #facebook {
+    display: block;
     position: relative;
     background-color: midnightblue;
     padding: 10px;
     margin-top: 20px;
     text-align: center;
     color: white;
+}
+#email {
+    margin-top: 10px;
 }
 #links {
     float: left;
@@ -78,4 +82,11 @@ span:hover {
 #input {
     width: 200px;
     border-radius: 3px;
+}
+#nav a {
+    text-decoration: none;
+    color: #0f0c0c;
+}
+i {
+    padding: 5px;
 }
