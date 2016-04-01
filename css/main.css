@@ -2,14 +2,12 @@ body,
 ul {
     background-image: url(quora.png);
     list-style: none;
-    opacity: 0.5%;
 }
 .header {
     display: block;
-    margin-top: 100px;
+    margin-top: 70px;
     margin-left: 20%;
     margin-right: 20%;
-    margin-bottom: 40px;
 }
 .header h1 {
     color: #910505;
@@ -34,14 +32,16 @@ span:hover {
     border: none;
 }
 #border {
-    width: 600px;
+    width: 550px;
     margin: auto;
     padding: 40px;
     border: solid 1px;
     box-shadow: 5px 5px 5px 5px #dcdcdc;
     border-radius: 4px;
     background: white;
-    height: 200px;
+    height: 180px;
+    font-weight: 100;
+    color: dimgrey;
 }
 #google {
     display: block;
@@ -70,7 +70,10 @@ span:hover {
     margin-top: 0;
     float: right;
     margin-right: 30px;
-    width: 250px;
+    width: 225px;
+    border-left: solid 1px;
+    padding-left: 30px;
+    margin-bottom: 10px;
 }
 #nav {
     margin-bottom: 200px;
@@ -87,7 +90,10 @@ span:hover {
 }
 #nav a {
     text-decoration: none;
-    color: #0f0c0c;
+    color: dimgray;
+}
+#nav a:hover {
+    text-decoration: underline;
 }
 i {
     padding: 5px;
