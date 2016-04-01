@@ -65,6 +65,7 @@ span:hover {
 #links {
     float: left;
     width: 250px;
+    padding: 0px;
 }
 #login {
     margin-top: 0;
@@ -74,6 +75,13 @@ span:hover {
     border-left: solid 1px;
     padding-left: 30px;
     margin-bottom: 10px;
+}
+#login a {
+    color: dimgray;
+    text-decoration: none;
+}
+#login a:hover {
+    text-decoration: underline;
 }
 #nav {
     margin-bottom: 200px;
